@@ -1,0 +1,7 @@
+{
+  "author": "Joaquin Franco",
+  "name": "gorou",
+  "description": "Goroutine lifecycle manager",
+  "version": "0.0.1",
+  "repository": "https://github.com/jgfranco17/gorou"
+}
