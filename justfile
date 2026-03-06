@@ -11,6 +11,13 @@ tidy:
     go mod tidy
     @echo "All modules synced, Go workspace ready!"
 
+# Run Go package
+run path:
+    #!/usr/bin/env bash
+    echo "Running package: {{ path }}"
+    cd {{ path }}
+    go run .
+
 # Run all unit tests with race detector
 test:
     @echo "Running unit tests (race detector enabled)..."
