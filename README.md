@@ -13,12 +13,6 @@ TBD
 
 TBD
 
-## Usage
-
-```bash
-hackstack build <category> [--source <path-to-yaml>] [--force]
-```
-
 ## Testing
 
 ### Unit tests
