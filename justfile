@@ -15,7 +15,7 @@ tidy:
 test:
     @echo "Running unit tests (race detector enabled)..."
     go clean -testcache
-    go test -race -count=1 ./...
+    go test -race -count=1 -cover ./...
 
 # Generate test coverage report
 coverage:
